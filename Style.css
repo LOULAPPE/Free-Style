@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: url('FondEcran.jpg');
+	background-size: 90%;
+	width: 110%;
+	repeat:no-repeat;
+	font-family: arial, "Arial Black";
+}
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
+.gauche {
+    float: left;
+    width: 55%;
+    height: 100vh;	
+	color:white;
+}
+
+.HautDroite1{
+	display:block;
+	position: absolute;
+	font-size:12px;
+	left:69%;
+	width: 12%;
+	height:auto;
+   	color: white;
+	font-size:16px;
+	font-weight: bold;
+	top:55%;
+	list-style-image: url("img/star2.jpg");
+}
+
+.HautDroite{
+	display:block;
+	position: absolute;
+	font-size:12px;
+	left:67%;
+	width: 12%;
+	height:auto;
+   	color: white;
+	font-weight: bold;
+    top:80%;
+}
+.BasDroite{
+	display:block;
+	position: absolute;
+	font-size:12px;
+	left:67%;
+	width: 12%;
+	height:auto;
+   	color: white;
+    top:130%;
+	font-weight: bold;
+}
+footer{
+	dislay: block;
+	position: fixed;
+	width: 50vw;
+	bottom: 0px;
+	color: white;
+	background-color:black;
+	caption: "Essai";
+}
+.imgfooter{
+	dislay: block;
+	position: fixed;
+	bottom: 0px;
+	width:28%;
+	float:right;
+	background-color:none;
+}
+.imgHeader{
+	dislay: block;
+	position: absolute;
+	bottom: 0px;
+	width: 21%;
+	top:0px;
+	right:16%;
+	background-color:none;
+}
+.clearfix {
+    clear: both;
+}
+h4 {
+	font-size:12px;
+}
+h5 {
+	font-size:18px;
+}
+h6 {
+	background-color:#1E1E1E;
+	color: gray; 
+	font-size:14px;
+	border-top: solid; 
+	border-bottom: solid; 
+	border-color: gray;
+	padding-left: 15px;
+	paddin-top: 15px;
+	border-width: 1px;
+	line-height: 30px;
+}
+
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: lightblue; /* Firefox */
+    column-rule-color: lightblue;
+}
+
+
